@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Recipe Feedback</title>
+</head>
+<body>
+
+    <header>
+        <h1>Recipe Feedback</h1>
+        <p>Feel free to leave your feedback or ask questions about specific recipes.</p>
+    </header>
+
+    <section class="recipe-selection">
+        <h2>Select Recipe</h2>
+        <form action="submit_feedback.php" method="post">
+            <label for="recipe-name">Recipe Name:</label>
+            <select id="recipe-name" name="recipe-name">
+                <option value="polos-abula">Polos Abula</option>
+                <option value="malu-abulthiyal">Malu Abulthiyal</option>
+                <option value="kos-ata-kalupol-maluwa">Kos Ata Kalupol Maluwa</option>
+                <option value="hath-maluwa">Hath Maluwa</option>
+            </select>
+        </form>
+    </section>
+
+    <section class="feedback-form">
+        <h2>Feedback/Question</h2>
+
+        <section class="feedback-textbox">
+            <form action="#" method="post">
+                <textarea id="feedback" name="feedback" rows="4" cols="50" placeholder="Type here..."></textarea>
+            </form>
+        </section>
+
+        <section class="submit-feedback-button">
+            <form action="#" method="post">
+                <input type="submit" value="Submit Feedback">
+            </form>
+        </section>
+    </section>
+
+</body>
+</html>

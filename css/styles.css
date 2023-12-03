@@ -1,0 +1,131 @@
+/* styles.css */
+body {
+ background-color: #ebfff5;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #fff;
+    color: #126940;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 18px;
+}
+
+.featured-dishes {
+    background-color: #edfff7;
+    color: #37403c;
+    text-align: center;
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.dish {
+background-color: #1c9c60;
+color: #fff;
+    text-align: center;
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+.main-image {
+    text-align: center;
+    margin: 30px;
+}
+
+.main-image img {
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.button-container {
+    margin-top: 20px;
+}
+.cta-button {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border-radius: 8px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #45a049;
+}
+img {
+    max-width: 20%;
+    border-radius: 8px;
+}
+
+
+.recipe-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.recipe {
+    text-align: center;
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 250px; 
+    background-color: #fff;
+}
+
+.recipe img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.recipe h2 {
+    margin-top: 10px;
+    color: #333;
+}
+
+.recipe p {
+    font-size: 16px;
+    color: #555;
+}
+
+
+.feedback-button {
+    text-align: center;
+    margin: 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #45a049; 
+}
